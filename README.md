@@ -29,7 +29,6 @@ Here’s what you can do with Looply:
 Looply is built using Python (Flask) for the backend and Jinja templates for the frontend. Here’s a breakdown of what I wrote:
 
 - `app.py`: The heart of the app — it contains all the routes and core logic (handling login, task operations, etc).
-- `helpers.py`: Custom helper functions that make the code cleaner — things like user verification.
 - `templates/`: This is where all the HTML templates live. I used a base layout and extended it across all pages to keep things consistent.
 - `tasks.db`: SQLite database file that stores everything — users, tasks, categories, and streaks.
 - `requirements.txt`: List of all Python packages needed to run the app.
